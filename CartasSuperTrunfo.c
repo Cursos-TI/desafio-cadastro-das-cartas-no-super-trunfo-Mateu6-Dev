@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 int main() {
     char estado1[50],estado2[50];
     char codigo1[50], codigo2[50];
@@ -94,14 +89,47 @@ int main() {
         pontos_turisticos2, densidade2, pib_per_capita2, super_poder2);
 
 
-        printf("Comparacao de Cartas: \n");
-        printf("População: %d\n", (int)(populacao1 > populacao2));
-        printf("Área: %d\n", (int)(area1 > area2));
-        printf("PIB: %d\n", (int)(pib1 > pib2));
-        printf("Pontos Turísticos: %d\n", (int)(pontos_turisticos1 > pontos_turisticos2));
-        printf("Densidade Populacional: %d\n", (int)(densidade1 > densidade2));
-        printf("PIB per Capita: %d\n", (int)(pib_per_capita1 > pib_per_capita2));
-        printf("Super Poder: %d\n", (int)(super_poder1 > super_poder2));
+        if(populacao1 > populacao2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(pib1 > pib2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(area1 > area2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(pontos_turisticos1 > pontos_turisticos2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(densidade1 > densidade2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(pib_per_capita1 > pib_per_capita2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
+
+        if(super_poder1 > super_poder2){
+            printf("Carta 1 venceu!\n");
+        }else {
+            printf("Carta 2 venceu!\n");
+        }
 
 
     return 0;
